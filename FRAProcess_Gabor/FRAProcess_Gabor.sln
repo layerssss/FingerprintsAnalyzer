@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GetGabor", "FRAProcess_GetGabor\FRAProcess_GetGabor.csproj", "{EDE98E98-2A96-46A4-8944-9E598DFBCF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GFilter", "FRAProcess_GFilter\FRAProcess_GFilter.csproj", "{B03F99A0-2710-4D1D-96F5-FA8DAE03D71A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GGetAsymGabor", "FRAProcess_GGetAsymGabor\FRAProcess_GGetAsymGabor.csproj", "{CF8CAB1C-B769-493E-A2B8-73812DD826B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GApplyFilter", "FRAProcess_GApplyFilter\FRAProcess_GApplyFilter.csproj", "{F06B92A4-00E3-4A7C-9E94-12EF7CBD31E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GTestGetFreqByGabor", "FRAProcess_GTestGetFreqByGabor\FRAProcess_GTestGetFreqByGabor.csproj", "{A85B384E-EC4C-4D00-B195-01B630225931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GGetFreqGraghByGabor", "FRAProcess_GGetFreqGraghByGabor\FRAProcess_GGetFreqGraghByGabor.csproj", "{40BF3916-4725-4467-B16B-2B6F34A2AECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GApplyGaborDynFreq", "FRAProcess_GApplyGaborDynFreq\FRAProcess_GApplyGaborDynFreq.csproj", "{906780AE-C023-470E-AF7A-E1AC0C8C7260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_GRemoveGap", "FRAProcess_GRemoveGap\FRAProcess_GRemoveGap.csproj", "{037875DD-6B74-4C1D-B59C-37F8893EB236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE98E98-2A96-46A4-8944-9E598DFBCF94}.Debug|x86.ActiveCfg = Debug|x86
+		{EDE98E98-2A96-46A4-8944-9E598DFBCF94}.Debug|x86.Build.0 = Debug|x86
+		{EDE98E98-2A96-46A4-8944-9E598DFBCF94}.Release|x86.ActiveCfg = Release|x86
+		{EDE98E98-2A96-46A4-8944-9E598DFBCF94}.Release|x86.Build.0 = Release|x86
+		{B03F99A0-2710-4D1D-96F5-FA8DAE03D71A}.Debug|x86.ActiveCfg = Debug|x86
+		{B03F99A0-2710-4D1D-96F5-FA8DAE03D71A}.Debug|x86.Build.0 = Debug|x86
+		{B03F99A0-2710-4D1D-96F5-FA8DAE03D71A}.Release|x86.ActiveCfg = Release|x86
+		{B03F99A0-2710-4D1D-96F5-FA8DAE03D71A}.Release|x86.Build.0 = Release|x86
+		{CF8CAB1C-B769-493E-A2B8-73812DD826B6}.Debug|x86.ActiveCfg = Debug|x86
+		{CF8CAB1C-B769-493E-A2B8-73812DD826B6}.Debug|x86.Build.0 = Debug|x86
+		{CF8CAB1C-B769-493E-A2B8-73812DD826B6}.Release|x86.ActiveCfg = Release|x86
+		{CF8CAB1C-B769-493E-A2B8-73812DD826B6}.Release|x86.Build.0 = Release|x86
+		{F06B92A4-00E3-4A7C-9E94-12EF7CBD31E3}.Debug|x86.ActiveCfg = Debug|x86
+		{F06B92A4-00E3-4A7C-9E94-12EF7CBD31E3}.Debug|x86.Build.0 = Debug|x86
+		{F06B92A4-00E3-4A7C-9E94-12EF7CBD31E3}.Release|x86.ActiveCfg = Release|x86
+		{F06B92A4-00E3-4A7C-9E94-12EF7CBD31E3}.Release|x86.Build.0 = Release|x86
+		{A85B384E-EC4C-4D00-B195-01B630225931}.Debug|x86.ActiveCfg = Debug|x86
+		{A85B384E-EC4C-4D00-B195-01B630225931}.Debug|x86.Build.0 = Debug|x86
+		{A85B384E-EC4C-4D00-B195-01B630225931}.Release|x86.ActiveCfg = Release|x86
+		{A85B384E-EC4C-4D00-B195-01B630225931}.Release|x86.Build.0 = Release|x86
+		{40BF3916-4725-4467-B16B-2B6F34A2AECD}.Debug|x86.ActiveCfg = Debug|x86
+		{40BF3916-4725-4467-B16B-2B6F34A2AECD}.Debug|x86.Build.0 = Debug|x86
+		{40BF3916-4725-4467-B16B-2B6F34A2AECD}.Release|x86.ActiveCfg = Release|x86
+		{40BF3916-4725-4467-B16B-2B6F34A2AECD}.Release|x86.Build.0 = Release|x86
+		{906780AE-C023-470E-AF7A-E1AC0C8C7260}.Debug|x86.ActiveCfg = Debug|x86
+		{906780AE-C023-470E-AF7A-E1AC0C8C7260}.Debug|x86.Build.0 = Debug|x86
+		{906780AE-C023-470E-AF7A-E1AC0C8C7260}.Release|x86.ActiveCfg = Release|x86
+		{906780AE-C023-470E-AF7A-E1AC0C8C7260}.Release|x86.Build.0 = Release|x86
+		{037875DD-6B74-4C1D-B59C-37F8893EB236}.Debug|x86.ActiveCfg = Debug|x86
+		{037875DD-6B74-4C1D-B59C-37F8893EB236}.Debug|x86.Build.0 = Debug|x86
+		{037875DD-6B74-4C1D-B59C-37F8893EB236}.Release|x86.ActiveCfg = Release|x86
+		{037875DD-6B74-4C1D-B59C-37F8893EB236}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

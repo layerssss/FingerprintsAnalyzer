@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_UFGetBG", "FRAProcess_UFGetBG\FRAProcess_UFGetBG.csproj", "{16F38259-94EC-436D-9D6C-A29E6AC21D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_UFThin", "FRAProcess_UFThin\FRAProcess_UFThin.csproj", "{F065040A-C4C6-4A57-A3A4-A4C3904ABDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F38259-94EC-436D-9D6C-A29E6AC21D9F}.Debug|x86.ActiveCfg = Debug|x86
+		{16F38259-94EC-436D-9D6C-A29E6AC21D9F}.Debug|x86.Build.0 = Debug|x86
+		{16F38259-94EC-436D-9D6C-A29E6AC21D9F}.Release|x86.ActiveCfg = Release|x86
+		{16F38259-94EC-436D-9D6C-A29E6AC21D9F}.Release|x86.Build.0 = Release|x86
+		{F065040A-C4C6-4A57-A3A4-A4C3904ABDD5}.Debug|x86.ActiveCfg = Debug|x86
+		{F065040A-C4C6-4A57-A3A4-A4C3904ABDD5}.Debug|x86.Build.0 = Debug|x86
+		{F065040A-C4C6-4A57-A3A4-A4C3904ABDD5}.Release|x86.ActiveCfg = Release|x86
+		{F065040A-C4C6-4A57-A3A4-A4C3904ABDD5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

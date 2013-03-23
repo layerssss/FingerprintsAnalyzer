@@ -1,0 +1,93 @@
+MSetInfomation("自动录制的宏");
+MConfigProcess("FC系列","TestFCSampling"){
+  input{
+    MConfigArgument("整数","取样率","30");
+    MConfigArgument("灰度图","灰度图","原图像");
+    MConfigArgument("窗口","FC计算窗口","一小块-40");
+  }
+  output{
+    MConfigArgument("数组","FC样本","FC样本");
+  }
+}
+MConfigProcess("数据转换类","GetFileName"){
+  input{
+  }
+  output{
+    MConfigArgument("字符串","正在处理的文件名","正在处理的文件名");
+  }
+}
+MConfigProcess("数据转换类","AppendArrayToCsv"){
+  input{
+    MConfigArgument("数组","数据","FC样本");
+    MConfigArgument("字符串","CSV文件名","CSV文件名");
+    MConfigArgument("字符串","行首","正在处理的文件名");
+  }
+  output{
+    MConfigArgument("字符串添加记录","追加记录","追加记录");
+  }
+}
+MConfigProcess("数据转换类","DrawArray"){
+  input{
+    MConfigArgument("数组","数据","FC样本");
+    MConfigArgument("整数","图表宽度","600");
+    MConfigArgument("整数","图表高度","300");
+    MConfigArgument("浮点数","纵轴最小值代表的数据","0");
+    MConfigArgument("浮点数","纵轴最大值代表的数据","100");
+    MConfigArgument("布尔值","是否用线把点连起来","是");
+  }
+  output{
+    MConfigArgument("灰度图","图表","FC样本数据图表-线");
+  }
+}
+MConfigProcess("数据转换类","DrawArray"){
+  input{
+    MConfigArgument("数组","数据","FC样本");
+    MConfigArgument("整数","图表宽度","300");
+    MConfigArgument("整数","图表高度","100");
+    MConfigArgument("浮点数","纵轴最小值代表的数据","0");
+    MConfigArgument("浮点数","纵轴最大值代表的数据","100");
+    MConfigArgument("布尔值","是否用线把点连起来","否");
+  }
+  output{
+    MConfigArgument("灰度图","图表","FC样本数据图表-点");
+  }
+}
+MConfigProcess("数据转换类","GetBMP"){
+  input{
+    MConfigArgument("灰度图","灰度图","FC样本数据图表-线");
+  }
+  output{
+    MConfigArgument("bmp","预览","FC样本数据图表-线");
+  }
+}
+MConfigProcess("数据转换类","GetBMP"){
+  input{
+    MConfigArgument("灰度图","灰度图","FC样本数据图表-点");
+  }
+  output{
+    MConfigArgument("bmp","预览","FC样本数据图表-点");
+  }
+}
+/*FRARecordingPosition*/
+MConfigResult("bmp","FC样本数据图表-点");
+MConfigResult("bmp","FC样本数据图表-线");
+/*前面这行注释帮助系统进行录制，请将它放在所有MConfigResult语句之前---*/
+/*提示：用MConfigResult设置最终得到的结果_____________________________*/
+/*示例：____MConfigResult("方向图","提取结果");_______________________*/
+/*____________________________________________________________________*/
+/*注意：FRA宏代码中的注释不能包含空格或者换行_________________________*/
+/*______目前宏的大概格式为：__________________________________________*/
+/*_MSetInfomation(macroInfomation);___________________________________*/
+/*_MConfigProcess(processType,processName){___________________________*/
+/*______input{________________________________________________________*/
+/*___________MConfigArgument(argType,argName,dataName);_______________*/
+/*___________...______________________________________________________*/
+/*______}_____________________________________________________________*/
+/*______output{_______________________________________________________*/
+/*___________MConfigArgument(argType,argName,dataName);_______________*/
+/*___________...______________________________________________________*/
+/*______}_____________________________________________________________*/
+/*_}__________________________________________________________________*/
+/*_...________________________________________________________________*/
+/*_MConfigResult(dataType,dataName);__________________________________*/
+/*_...________________________________________________________________*/

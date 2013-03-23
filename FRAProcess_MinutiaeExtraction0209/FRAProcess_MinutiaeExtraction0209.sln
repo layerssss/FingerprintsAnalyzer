@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_MERidgeTracking", "FRAProcess_MERidgeTracking\FRAProcess_MERidgeTracking.csproj", "{68992074-E9A1-4760-8B39-CC2CAC48BB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_MEKillSpikesAndFalseREs", "FRAProcess_MEKillSpikesAndFalseREs\FRAProcess_MEKillSpikesAndFalseREs.csproj", "{474EB9C1-A938-4A41-A36A-EF1E247A2242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_BDirectConstrainedUnfatBalanced", "FRAProcess_BDirectConstrainedUnfatBalanced\FRAProcess_BDirectConstrainedUnfatBalanced.csproj", "{FF168532-5B43-4ABD-B3C3-B19E9C5F7CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_MEGetMinutiaeSet", "FRAProcess_MEGetMinutiaeSet\FRAProcess_MEGetMinutiaeSet.csproj", "{90616E2B-616D-4180-8DFF-200370CE8C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_MEGetLocalStructure", "FRAProcess_MEGetLocalStructure\FRAProcess_MEGetLocalStructure.csproj", "{F1C8DDFC-04F7-49A4-9807-B95D392DA4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_SNeighbour3", "FRAProcess_SNeighbour3\FRAProcess_SNeighbour3.csproj", "{0DAE0481-35AC-4451-AD9F-BD9D2A3F77C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_SGetN3Graph", "FRAProcess_SGetN3Graph\FRAProcess_SGetN3Graph.csproj", "{010EA782-6582-43D1-8390-E8654A1FED64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_SApplyToCloseMS", "FRAProcess_SApplyToCloseMS\FRAProcess_SApplyToCloseMS.csproj", "{B02975F9-DFB9-401A-B27B-04C4C9828432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_BUnconstrainedMend", "FRAProcess_BUnconstrainedMend\FRAProcess_BUnconstrainedMend.csproj", "{EB1F28E5-9EC6-41F9-8FCD-BD6C7061BC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_SNegOnPTLS", "FRAProcess_SNegOnPTLS\FRAProcess_SNegOnPTLS.csproj", "{1DBA1CAC-AAB1-4C41-8FB4-1C399FA905C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_MLocal", "FRAProcess_MLocal\FRAProcess_MLocal.csproj", "{7CBF973F-9AFE-48A1-B7BC-1C169150F774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_MGlobalMatch", "FRAProcess_MGlobalMatch\FRAProcess_MGlobalMatch.csproj", "{A71E52BF-1C26-4534-9B00-A03AD3B214C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_RemoveFalseMinutiae", "FRAProcess_RemoveFalseMinutiae\FRAProcess_RemoveFalseMinutiae.csproj", "{F9680BD1-8F3B-420D-B080-AFD7D10C48F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_BGaborFixedFreq", "FRAProcess_BGaborFixedFreq\FRAProcess_BGaborFixedFreq.csproj", "{000F1F6E-B48B-4474-A9C7-93AD8BB2B03C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68992074-E9A1-4760-8B39-CC2CAC48BB04}.Debug|x86.ActiveCfg = Debug|x86
+		{68992074-E9A1-4760-8B39-CC2CAC48BB04}.Debug|x86.Build.0 = Debug|x86
+		{68992074-E9A1-4760-8B39-CC2CAC48BB04}.Release|x86.ActiveCfg = Release|x86
+		{68992074-E9A1-4760-8B39-CC2CAC48BB04}.Release|x86.Build.0 = Release|x86
+		{474EB9C1-A938-4A41-A36A-EF1E247A2242}.Debug|x86.ActiveCfg = Debug|x86
+		{474EB9C1-A938-4A41-A36A-EF1E247A2242}.Debug|x86.Build.0 = Debug|x86
+		{474EB9C1-A938-4A41-A36A-EF1E247A2242}.Release|x86.ActiveCfg = Release|x86
+		{474EB9C1-A938-4A41-A36A-EF1E247A2242}.Release|x86.Build.0 = Release|x86
+		{FF168532-5B43-4ABD-B3C3-B19E9C5F7CFC}.Debug|x86.ActiveCfg = Debug|x86
+		{FF168532-5B43-4ABD-B3C3-B19E9C5F7CFC}.Debug|x86.Build.0 = Debug|x86
+		{FF168532-5B43-4ABD-B3C3-B19E9C5F7CFC}.Release|x86.ActiveCfg = Release|x86
+		{FF168532-5B43-4ABD-B3C3-B19E9C5F7CFC}.Release|x86.Build.0 = Release|x86
+		{90616E2B-616D-4180-8DFF-200370CE8C75}.Debug|x86.ActiveCfg = Debug|x86
+		{90616E2B-616D-4180-8DFF-200370CE8C75}.Debug|x86.Build.0 = Debug|x86
+		{90616E2B-616D-4180-8DFF-200370CE8C75}.Release|x86.ActiveCfg = Release|x86
+		{90616E2B-616D-4180-8DFF-200370CE8C75}.Release|x86.Build.0 = Release|x86
+		{F1C8DDFC-04F7-49A4-9807-B95D392DA4A6}.Debug|x86.ActiveCfg = Debug|x86
+		{F1C8DDFC-04F7-49A4-9807-B95D392DA4A6}.Debug|x86.Build.0 = Debug|x86
+		{F1C8DDFC-04F7-49A4-9807-B95D392DA4A6}.Release|x86.ActiveCfg = Release|x86
+		{F1C8DDFC-04F7-49A4-9807-B95D392DA4A6}.Release|x86.Build.0 = Release|x86
+		{0DAE0481-35AC-4451-AD9F-BD9D2A3F77C2}.Debug|x86.ActiveCfg = Debug|x86
+		{0DAE0481-35AC-4451-AD9F-BD9D2A3F77C2}.Debug|x86.Build.0 = Debug|x86
+		{0DAE0481-35AC-4451-AD9F-BD9D2A3F77C2}.Release|x86.ActiveCfg = Release|x86
+		{0DAE0481-35AC-4451-AD9F-BD9D2A3F77C2}.Release|x86.Build.0 = Release|x86
+		{010EA782-6582-43D1-8390-E8654A1FED64}.Debug|x86.ActiveCfg = Debug|x86
+		{010EA782-6582-43D1-8390-E8654A1FED64}.Debug|x86.Build.0 = Debug|x86
+		{010EA782-6582-43D1-8390-E8654A1FED64}.Release|x86.ActiveCfg = Release|x86
+		{010EA782-6582-43D1-8390-E8654A1FED64}.Release|x86.Build.0 = Release|x86
+		{B02975F9-DFB9-401A-B27B-04C4C9828432}.Debug|x86.ActiveCfg = Debug|x86
+		{B02975F9-DFB9-401A-B27B-04C4C9828432}.Debug|x86.Build.0 = Debug|x86
+		{B02975F9-DFB9-401A-B27B-04C4C9828432}.Release|x86.ActiveCfg = Release|x86
+		{B02975F9-DFB9-401A-B27B-04C4C9828432}.Release|x86.Build.0 = Release|x86
+		{EB1F28E5-9EC6-41F9-8FCD-BD6C7061BC33}.Debug|x86.ActiveCfg = Debug|x86
+		{EB1F28E5-9EC6-41F9-8FCD-BD6C7061BC33}.Debug|x86.Build.0 = Debug|x86
+		{EB1F28E5-9EC6-41F9-8FCD-BD6C7061BC33}.Release|x86.ActiveCfg = Release|x86
+		{EB1F28E5-9EC6-41F9-8FCD-BD6C7061BC33}.Release|x86.Build.0 = Release|x86
+		{1DBA1CAC-AAB1-4C41-8FB4-1C399FA905C6}.Debug|x86.ActiveCfg = Debug|x86
+		{1DBA1CAC-AAB1-4C41-8FB4-1C399FA905C6}.Debug|x86.Build.0 = Debug|x86
+		{1DBA1CAC-AAB1-4C41-8FB4-1C399FA905C6}.Release|x86.ActiveCfg = Release|x86
+		{1DBA1CAC-AAB1-4C41-8FB4-1C399FA905C6}.Release|x86.Build.0 = Release|x86
+		{7CBF973F-9AFE-48A1-B7BC-1C169150F774}.Debug|x86.ActiveCfg = Debug|x86
+		{7CBF973F-9AFE-48A1-B7BC-1C169150F774}.Debug|x86.Build.0 = Debug|x86
+		{7CBF973F-9AFE-48A1-B7BC-1C169150F774}.Release|x86.ActiveCfg = Release|x86
+		{7CBF973F-9AFE-48A1-B7BC-1C169150F774}.Release|x86.Build.0 = Release|x86
+		{A71E52BF-1C26-4534-9B00-A03AD3B214C1}.Debug|x86.ActiveCfg = Debug|x86
+		{A71E52BF-1C26-4534-9B00-A03AD3B214C1}.Debug|x86.Build.0 = Debug|x86
+		{A71E52BF-1C26-4534-9B00-A03AD3B214C1}.Release|x86.ActiveCfg = Release|x86
+		{A71E52BF-1C26-4534-9B00-A03AD3B214C1}.Release|x86.Build.0 = Release|x86
+		{F9680BD1-8F3B-420D-B080-AFD7D10C48F9}.Debug|x86.ActiveCfg = Debug|x86
+		{F9680BD1-8F3B-420D-B080-AFD7D10C48F9}.Debug|x86.Build.0 = Debug|x86
+		{F9680BD1-8F3B-420D-B080-AFD7D10C48F9}.Release|x86.ActiveCfg = Release|x86
+		{F9680BD1-8F3B-420D-B080-AFD7D10C48F9}.Release|x86.Build.0 = Release|x86
+		{000F1F6E-B48B-4474-A9C7-93AD8BB2B03C}.Debug|x86.ActiveCfg = Debug|x86
+		{000F1F6E-B48B-4474-A9C7-93AD8BB2B03C}.Debug|x86.Build.0 = Debug|x86
+		{000F1F6E-B48B-4474-A9C7-93AD8BB2B03C}.Release|x86.ActiveCfg = Release|x86
+		{000F1F6E-B48B-4474-A9C7-93AD8BB2B03C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

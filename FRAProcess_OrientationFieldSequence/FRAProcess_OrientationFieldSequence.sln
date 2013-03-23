@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_OFSExtract", "FRAProcess_OFSExtract\FRAProcess_OFSExtract.csproj", "{C77C46E1-7325-4986-A83D-8923D1D52DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_OFSMatch", "FRAProcess_OFSMatch\FRAProcess_OFSMatch.csproj", "{5C355643-9549-4681-9A36-E246BAA8C67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_OFSMatchCountCheck", "FRAProcess_OFSMatchCountCheck\FRAProcess_OFSMatchCountCheck.csproj", "{56AFAE4D-BD6A-43D9-907E-B711A2D76A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_OFSMatchAntiDistortion", "FRAProcess_OFSMatchAntiDistortion\FRAProcess_OFSMatchAntiDistortion.csproj", "{D3457181-FAD0-4159-B459-4BD935ECB7CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C77C46E1-7325-4986-A83D-8923D1D52DE6}.Debug|x86.ActiveCfg = Debug|x86
+		{C77C46E1-7325-4986-A83D-8923D1D52DE6}.Debug|x86.Build.0 = Debug|x86
+		{C77C46E1-7325-4986-A83D-8923D1D52DE6}.Release|x86.ActiveCfg = Release|x86
+		{C77C46E1-7325-4986-A83D-8923D1D52DE6}.Release|x86.Build.0 = Release|x86
+		{5C355643-9549-4681-9A36-E246BAA8C67D}.Debug|x86.ActiveCfg = Debug|x86
+		{5C355643-9549-4681-9A36-E246BAA8C67D}.Debug|x86.Build.0 = Debug|x86
+		{5C355643-9549-4681-9A36-E246BAA8C67D}.Release|x86.ActiveCfg = Release|x86
+		{5C355643-9549-4681-9A36-E246BAA8C67D}.Release|x86.Build.0 = Release|x86
+		{56AFAE4D-BD6A-43D9-907E-B711A2D76A03}.Debug|x86.ActiveCfg = Debug|x86
+		{56AFAE4D-BD6A-43D9-907E-B711A2D76A03}.Debug|x86.Build.0 = Debug|x86
+		{56AFAE4D-BD6A-43D9-907E-B711A2D76A03}.Release|x86.ActiveCfg = Release|x86
+		{56AFAE4D-BD6A-43D9-907E-B711A2D76A03}.Release|x86.Build.0 = Release|x86
+		{D3457181-FAD0-4159-B459-4BD935ECB7CC}.Debug|x86.ActiveCfg = Debug|x86
+		{D3457181-FAD0-4159-B459-4BD935ECB7CC}.Debug|x86.Build.0 = Debug|x86
+		{D3457181-FAD0-4159-B459-4BD935ECB7CC}.Release|x86.ActiveCfg = Release|x86
+		{D3457181-FAD0-4159-B459-4BD935ECB7CC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

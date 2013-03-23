@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09A0C87F-F130-4818-8446-72AEA25D285F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FRADataStructs</RootNamespace>
+    <AssemblyName>FRADataStructs</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataStructs\Abstract\Array.cs" />
+    <Compile Include="DataStructs\Abstract\DoubleFloatGraph.cs" />
+    <Compile Include="DataStructs\Classes\Complex.cs" />
+    <Compile Include="DataStructs\Classes\HoughTansformation2D.cs" />
+    <Compile Include="DataStructs\Abstract\UpTreeNode.cs" />
+    <Compile Include="DataStructs\AngleRCSet.cs" />
+    <Compile Include="DataStructs\BinaryGraph.cs" />
+    <Compile Include="DataStructs\BitmapFile.cs" />
+    <Compile Include="DataStructs\BoolData.cs" />
+    <Compile Include="DataStructs\Classes\Math2.cs" />
+    <Compile Include="DataStructs\ComplexFilter.cs" />
+    <Compile Include="DataStructs\DataStruct.cs" />
+    <Compile Include="DataStructs\Filter.cs" />
+    <Compile Include="DataStructs\FilterSet.cs" />
+    <Compile Include="DataStructs\Controls\ControlDrawable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Controls\ControlDrawable.Designer.cs">
+      <DependentUpon>ControlDrawable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormComplexFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormComplexFilter.Designer.cs">
+      <DependentUpon>FormComplexFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormFilterSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormFilterSet.Designer.cs">
+      <DependentUpon>FormFilterSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLocalStructureTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLocalStructureTest.Designer.cs">
+      <DependentUpon>FormLocalStructureTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Dialogs\MultiSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Dialogs\MultiSelection.Designer.cs">
+      <DependentUpon>MultiSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Dialogs\Progress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Dialogs\Progress.Designer.cs">
+      <DependentUpon>Progress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Dialogs\Prompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Dialogs\Prompt.designer.cs">
+      <DependentUpon>Prompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\DirectionGraph.cs" />
+    <Compile Include="DataStructs\DoubleFloat.cs" />
+    <Compile Include="DataStructs\Classes\Drawing2.cs" />
+    <Compile Include="DataStructs\DoubleFloatArray.cs" />
+    <Compile Include="DataStructs\DoubleFloatArraySeq.cs" />
+    <Compile Include="DataStructs\Forms\FormAngleRCSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormAngleRCSet.Designer.cs">
+      <DependentUpon>FormAngleRCSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDataStuct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDataStuct.Designer.cs">
+      <DependentUpon>FormDataStuct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDoubleFloatArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDoubleFloatArray.Designer.cs">
+      <DependentUpon>FormDoubleFloatArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDoubleFloatArraySeq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDoubleFloatArraySeq.Designer.cs">
+      <DependentUpon>FormDoubleFloatArraySeq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormIntegerPairs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormIntegerPairs.Designer.cs">
+      <DependentUpon>FormIntegerPairs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormIntergerGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormIntergerGraph.Designer.cs">
+      <DependentUpon>FormIntergerGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDoubleFloat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormDoubleFloat.Designer.cs">
+      <DependentUpon>FormDoubleFloat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLocalStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLocalStructure.Designer.cs">
+      <DependentUpon>FormLocalStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLocalStructureTestSets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLocalStructureTestSets.Designer.cs">
+      <DependentUpon>FormLocalStructureTestSets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLSArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormLSArray.Designer.cs">
+      <DependentUpon>FormLSArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormMacro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormMacro.Designer.cs">
+      <DependentUpon>FormMacro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormMacroSearchPattern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormMacroSearchPattern.Designer.cs">
+      <DependentUpon>FormMacroSearchPattern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormPointLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormPointLocation.Designer.cs">
+      <DependentUpon>FormPointLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormPointLocationSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormPointLocationSet.Designer.cs">
+      <DependentUpon>FormPointLocationSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormStabSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormStabSet.Designer.cs">
+      <DependentUpon>FormStabSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormStringData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormStringData.Designer.cs">
+      <DependentUpon>FormStringData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormWeightFunction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormWeightFunction.Designer.cs">
+      <DependentUpon>FormWeightFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormWindow.Designer.cs">
+      <DependentUpon>FormWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\Abstract\Graph.cs" />
+    <Compile Include="DataStructs\GrayLevelImage.cs" />
+    <Compile Include="DataStructs\Forms\FormGrayScaleImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormGrayScaleImage.Designer.cs">
+      <DependentUpon>FormGrayScaleImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDrawable.cs" />
+    <Compile Include="DataStructs\Integer.cs" />
+    <Compile Include="DataStructs\Forms\FormInterger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormInterger.Designer.cs">
+      <DependentUpon>FormInterger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\IntegerArray.cs" />
+    <Compile Include="DataStructs\IntegerArraySeq.cs" />
+    <Compile Include="DataStructs\IntegerPairs.cs" />
+    <Compile Include="DataStructs\LocalStructure.cs" />
+    <Compile Include="DataStructs\LocalStructureSet.cs" />
+    <Compile Include="DataStructs\LocalStructureTestSets.cs" />
+    <Compile Include="DataStructs\LSArray.cs" />
+    <Compile Include="DataStructs\Macro.cs" />
+    <Compile Include="DataStructs\MatchingSchema.cs" />
+    <Compile Include="DataStructs\Minutiae.cs" />
+    <Compile Include="DataStructs\MinutiaeSet.cs" />
+    <Compile Include="DataStructs\OrientationGraph.cs" />
+    <Compile Include="DataStructs\Forms\FormOrientationGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStructs\Forms\FormOrientationGraph.Designer.cs">
+      <DependentUpon>FormOrientationGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStructs\IntergerGraph.cs" />
+    <Compile Include="DataStructs\PoincareIndexes.cs" />
+    <Compile Include="DataStructs\PointLocation.cs" />
+    <Compile Include="DataStructs\PointLocationSet.cs" />
+    <Compile Include="DataStructs\PortionSize.cs" />
+    <Compile Include="DataStructs\SegmentationArea.cs" />
+    <Compile Include="DataStructs\StabSet.cs" />
+    <Compile Include="DataStructs\StringData.cs" />
+    <Compile Include="DataStructs\TextAppender.cs" />
+    <Compile Include="DataStructs\WeightFunction.cs" />
+    <Compile Include="DataStructs\Window.cs" />
+    <Compile Include="DataStructTypes.cs" />
+    <Compile Include="IDataStruct.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataStructs\Controls\ControlDrawable.resx">
+      <DependentUpon>ControlDrawable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormLocalStructureTest.resx">
+      <DependentUpon>FormLocalStructureTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Dialogs\MultiSelection.resx">
+      <DependentUpon>MultiSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Dialogs\Progress.resx">
+      <DependentUpon>Progress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Dialogs\Prompt.resx">
+      <DependentUpon>Prompt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormAngleRCSet.resx">
+      <DependentUpon>FormAngleRCSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormDoubleFloatArray.resx">
+      <DependentUpon>FormDoubleFloatArray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormDoubleFloatArraySeq.resx">
+      <DependentUpon>FormDoubleFloatArraySeq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormGrayScaleImage.resx">
+      <DependentUpon>FormGrayScaleImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormIntegerPairs.resx">
+      <DependentUpon>FormIntegerPairs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormInterger.resx">
+      <DependentUpon>FormInterger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormLocalStructure.resx">
+      <DependentUpon>FormLocalStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormLocalStructureTestSets.resx">
+      <DependentUpon>FormLocalStructureTestSets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormLSArray.resx">
+      <DependentUpon>FormLSArray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormMacro.resx">
+      <DependentUpon>FormMacro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormMacroSearchPattern.resx">
+      <DependentUpon>FormMacroSearchPattern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormOrientationGraph.resx">
+      <DependentUpon>FormOrientationGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormIntergerGraph.resx">
+      <DependentUpon>FormIntergerGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormDoubleFloat.resx">
+      <DependentUpon>FormDoubleFloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormPointLocation.resx">
+      <DependentUpon>FormPointLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormPointLocationSet.resx">
+      <DependentUpon>FormPointLocationSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormStabSet.resx">
+      <DependentUpon>FormStabSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormStringData.resx">
+      <DependentUpon>FormStringData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormWeightFunction.resx">
+      <DependentUpon>FormWeightFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStructs\Forms\FormWindow.resx">
+      <DependentUpon>FormWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

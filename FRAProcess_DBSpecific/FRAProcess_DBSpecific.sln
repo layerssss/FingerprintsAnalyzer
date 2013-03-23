@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_FVC2004DB2", "FRAProcess_FVC2004DB2\FRAProcess_FVC2004DB2.csproj", "{14444123-A17B-4E19-A9D5-737280613C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_ExtendImage", "FRAProcess_ExtendImage\FRAProcess_ExtendImage.csproj", "{2E26E7A2-BC63-4334-94C7-63B197379E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_ShrinkPointLocationSet", "FRAProcess_ShrinkPointLocationSet\FRAProcess_ShrinkPointLocationSet.csproj", "{32E4FEF8-F7EC-4515-A34D-94FCA589D20D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_FVC2004DB2OSlit2", "FRAProcess_FVC2004DB2OSlit2\FRAProcess_FVC2004DB2OSlit2.csproj", "{B4036C99-986E-439B-8383-199664895CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_EdgeGraphPadding", "FRAProcess_EdgeGraphPadding\FRAProcess_EdgeGraphPadding.csproj", "{C2F5F2E3-3CA2-450A-977A-D9A0403B4F36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14444123-A17B-4E19-A9D5-737280613C1E}.Debug|x86.ActiveCfg = Debug|x86
+		{14444123-A17B-4E19-A9D5-737280613C1E}.Debug|x86.Build.0 = Debug|x86
+		{14444123-A17B-4E19-A9D5-737280613C1E}.Release|x86.ActiveCfg = Release|x86
+		{14444123-A17B-4E19-A9D5-737280613C1E}.Release|x86.Build.0 = Release|x86
+		{2E26E7A2-BC63-4334-94C7-63B197379E62}.Debug|x86.ActiveCfg = Debug|x86
+		{2E26E7A2-BC63-4334-94C7-63B197379E62}.Debug|x86.Build.0 = Debug|x86
+		{2E26E7A2-BC63-4334-94C7-63B197379E62}.Release|x86.ActiveCfg = Release|x86
+		{2E26E7A2-BC63-4334-94C7-63B197379E62}.Release|x86.Build.0 = Release|x86
+		{32E4FEF8-F7EC-4515-A34D-94FCA589D20D}.Debug|x86.ActiveCfg = Debug|x86
+		{32E4FEF8-F7EC-4515-A34D-94FCA589D20D}.Debug|x86.Build.0 = Debug|x86
+		{32E4FEF8-F7EC-4515-A34D-94FCA589D20D}.Release|x86.ActiveCfg = Release|x86
+		{32E4FEF8-F7EC-4515-A34D-94FCA589D20D}.Release|x86.Build.0 = Release|x86
+		{B4036C99-986E-439B-8383-199664895CA5}.Debug|x86.ActiveCfg = Debug|x86
+		{B4036C99-986E-439B-8383-199664895CA5}.Debug|x86.Build.0 = Debug|x86
+		{B4036C99-986E-439B-8383-199664895CA5}.Release|x86.ActiveCfg = Release|x86
+		{B4036C99-986E-439B-8383-199664895CA5}.Release|x86.Build.0 = Release|x86
+		{C2F5F2E3-3CA2-450A-977A-D9A0403B4F36}.Debug|x86.ActiveCfg = Debug|x86
+		{C2F5F2E3-3CA2-450A-977A-D9A0403B4F36}.Debug|x86.Build.0 = Debug|x86
+		{C2F5F2E3-3CA2-450A-977A-D9A0403B4F36}.Release|x86.ActiveCfg = Release|x86
+		{C2F5F2E3-3CA2-450A-977A-D9A0403B4F36}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

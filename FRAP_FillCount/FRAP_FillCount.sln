@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_FCTrainThreshold", "FRAProcess_FCTrainThreshold\FRAProcess_FCTrainThreshold.csproj", "{754F2259-9B47-4048-B845-3678C2A1D4B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_TestFCSampling", "FRAProcess_TestFCSampling\FRAProcess_TestFCSampling.csproj", "{57FE6F00-B753-46B0-BD2E-E54A454DED4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_TestFillCount", "FRAProcess_TestFillCount\FRAProcess_TestFillCount.csproj", "{7B3A0C68-B727-4A1A-BA6B-1198A4A28806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_AntiPoreFillCount", "FRAProcess_AntiPoreFillCount\FRAProcess_AntiPoreFillCount.csproj", "{036DDA6D-1225-492F-91C6-187287FD8BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_APFCSampling", "FRAProcess_APFCSampling\FRAProcess_APFCSampling.csproj", "{DB34A710-4DA9-4650-A06E-5B3803AD7064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRAProcess_InfoRateSampling", "FRAProcess_InfoRateSampling\FRAProcess_InfoRateSampling.csproj", "{F33C3772-4E17-4948-A109-D0D1CDBB12FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754F2259-9B47-4048-B845-3678C2A1D4B2}.Debug|x86.ActiveCfg = Debug|x86
+		{754F2259-9B47-4048-B845-3678C2A1D4B2}.Debug|x86.Build.0 = Debug|x86
+		{754F2259-9B47-4048-B845-3678C2A1D4B2}.Release|x86.ActiveCfg = Release|x86
+		{754F2259-9B47-4048-B845-3678C2A1D4B2}.Release|x86.Build.0 = Release|x86
+		{57FE6F00-B753-46B0-BD2E-E54A454DED4D}.Debug|x86.ActiveCfg = Debug|x86
+		{57FE6F00-B753-46B0-BD2E-E54A454DED4D}.Debug|x86.Build.0 = Debug|x86
+		{57FE6F00-B753-46B0-BD2E-E54A454DED4D}.Release|x86.ActiveCfg = Release|x86
+		{57FE6F00-B753-46B0-BD2E-E54A454DED4D}.Release|x86.Build.0 = Release|x86
+		{7B3A0C68-B727-4A1A-BA6B-1198A4A28806}.Debug|x86.ActiveCfg = Debug|x86
+		{7B3A0C68-B727-4A1A-BA6B-1198A4A28806}.Debug|x86.Build.0 = Debug|x86
+		{7B3A0C68-B727-4A1A-BA6B-1198A4A28806}.Release|x86.ActiveCfg = Release|x86
+		{7B3A0C68-B727-4A1A-BA6B-1198A4A28806}.Release|x86.Build.0 = Release|x86
+		{036DDA6D-1225-492F-91C6-187287FD8BF9}.Debug|x86.ActiveCfg = Debug|x86
+		{036DDA6D-1225-492F-91C6-187287FD8BF9}.Debug|x86.Build.0 = Debug|x86
+		{036DDA6D-1225-492F-91C6-187287FD8BF9}.Release|x86.ActiveCfg = Release|x86
+		{036DDA6D-1225-492F-91C6-187287FD8BF9}.Release|x86.Build.0 = Release|x86
+		{DB34A710-4DA9-4650-A06E-5B3803AD7064}.Debug|x86.ActiveCfg = Debug|x86
+		{DB34A710-4DA9-4650-A06E-5B3803AD7064}.Debug|x86.Build.0 = Debug|x86
+		{DB34A710-4DA9-4650-A06E-5B3803AD7064}.Release|x86.ActiveCfg = Release|x86
+		{DB34A710-4DA9-4650-A06E-5B3803AD7064}.Release|x86.Build.0 = Release|x86
+		{F33C3772-4E17-4948-A109-D0D1CDBB12FC}.Debug|x86.ActiveCfg = Debug|x86
+		{F33C3772-4E17-4948-A109-D0D1CDBB12FC}.Debug|x86.Build.0 = Debug|x86
+		{F33C3772-4E17-4948-A109-D0D1CDBB12FC}.Release|x86.ActiveCfg = Release|x86
+		{F33C3772-4E17-4948-A109-D0D1CDBB12FC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
